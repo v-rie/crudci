@@ -34,8 +34,8 @@
                                 <td><?=$v_mahasiswa['jurusan']?></td>
                                 <td><?=$v_mahasiswa['semester']?></td>
                                 <td><div class="tooltip-mhs">
-                                    <a class="btn btn-primary" href="#" data-toggle="tooltip" data-placement="top" title="Ubah <?=$v_mahasiswa['namamhs']?>"><i class="fa fa-edit"></i></a>
-                                    <a class="btn btn-danger" href="#" data-toggle="tooltip" data-placement="top" title="Hapus <?=$v_mahasiswa['namamhs']?>"><i class="fa fa-trash"></i></a>
+                                    <a class="btn btn-primary" href="<?=base_url();?>home/ubahMhs/<?=$v_mahasiswa['id_mhs']?>" data-toggle="tooltip" data-placement="top" title="Ubah <?=$v_mahasiswa['namamhs']?>"><i class="fa fa-edit"></i></a>
+                                    <a class="btn btn-danger" href="<?=base_url();?>home/hapusMhs/<?=$v_mahasiswa['id_mhs']?>"  data-toggle="tooltip" data-placement="top" title="Hapus <?=$v_mahasiswa['namamhs']?>"><i class="fa fa-trash"></i></a>
                                     </div>
                                 </td>
                             </tr>

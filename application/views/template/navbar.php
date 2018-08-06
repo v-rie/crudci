@@ -238,7 +238,7 @@
                             <!-- /input-group -->
                         </li>
                         <li>
-                            <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                            <a href="<?=base_url()?>"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-user fa-fw"></i> Mahasiswa<span class="fa arrow"></span></a>
@@ -247,7 +247,7 @@
                                     <a href="<?=base_url('home/datamhs');?>">Data Mahasiswa</a>
                                 </li>
                                 <li>
-                                    <a href="morris.html">Tambah Mahasiswa</a>
+                                    <a href="<?=base_url('home/tambahmhs')?>">Tambah Mahasiswa</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
