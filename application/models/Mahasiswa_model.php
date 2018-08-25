@@ -16,6 +16,11 @@ class Mahasiswa_model extends CI_Model {
 
 	}
 
+	public function jumlah_mhs($value='')
+	{
+		$query = $this->db->get($this->table);
+		return $query->num_rows();
+	}
 	public function simpanMhs() {
 
 		$data = array(

@@ -15,8 +15,8 @@
                                     <i class="fa fa-comments fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">26</div>
-                                    <div>New Comments!</div>
+                                    <div class="huge"><?=$jumlah_mhs;?></div>
+                                    <div>Jumlah Mahasiswa!</div>
                                 </div>
                             </div>
                         </div>

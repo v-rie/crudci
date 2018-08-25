@@ -11,6 +11,8 @@ class Home extends CI_Controller {
 	public function index() {
 		$data['title'] = 'Home';
 		$data['namaweb'] = 'Simple CRUD Mahasiswa';
+		$data['jumlah_mhs'] = $this->mahasiswa_model->jumlah_mhs();
+
 
 		$this->load->view('template/header', $data);
 		$this->load->view('template/navbar', $data);

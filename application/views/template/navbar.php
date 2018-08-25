@@ -252,6 +252,18 @@
                             </ul>
                             <!-- /.nav-second-level -->
                         </li>
+                        <li>
+                            <a href="#"><i class="fa fa-user fa-fw"></i> Dosen<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="<?=base_url('dosen/datados');?>">Data Dosen</a>
+                                </li>
+                                <li>
+                                    <a href="<?=base_url('dosen/tambahdos')?>">Tambah Dosen</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
                     </ul>
                 </div>
                 <!-- /.sidebar-collapse -->
